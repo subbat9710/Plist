@@ -1,0 +1,12 @@
+PODS:
+  - SwiftyPlistManager (1.0.1)
+
+DEPENDENCIES:
+  - SwiftyPlistManager
+
+SPEC CHECKSUMS:
+  SwiftyPlistManager: 1f4b9e82fd8048fddc16ce56bb574bcfccb21561
+
+PODFILE CHECKSUM: 0c4192b3bfa9b914f8b48c1d11dcb9c6bcc14113
+
+COCOAPODS: 1.2.1

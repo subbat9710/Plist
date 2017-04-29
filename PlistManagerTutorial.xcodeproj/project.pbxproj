@@ -14,6 +14,9 @@
 		0FCAFCE71EB3942600FDCC64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCAFCE51EB3942600FDCC64 /* LaunchScreen.storyboard */; };
 		0FCAFCF21EB3942600FDCC64 /* PlistManagerTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCAFCF11EB3942600FDCC64 /* PlistManagerTutorialTests.swift */; };
 		0FCAFCFD1EB3942600FDCC64 /* PlistManagerTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCAFCFC1EB3942600FDCC64 /* PlistManagerTutorialUITests.swift */; };
+		0FCAFD0B1EB39B4400FDCC64 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FCAFD0A1EB39B4400FDCC64 /* Data.plist */; };
+		0FCAFD0D1EB39B5D00FDCC64 /* OtherData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FCAFD0C1EB39B5D00FDCC64 /* OtherData.plist */; };
+		6EEE8097BC934C2A4783B4F5 /* Pods_PlistManagerTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458F6F6700FE4E23C7A3952C /* Pods_PlistManagerTutorial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,11 @@
 		0FCAFCF81EB3942600FDCC64 /* PlistManagerTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlistManagerTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCAFCFC1EB3942600FDCC64 /* PlistManagerTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistManagerTutorialUITests.swift; sourceTree = "<group>"; };
 		0FCAFCFE1EB3942600FDCC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FCAFD0A1EB39B4400FDCC64 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Data.plist; path = ../Data.plist; sourceTree = "<group>"; };
+		0FCAFD0C1EB39B5D00FDCC64 /* OtherData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = OtherData.plist; path = ../OtherData.plist; sourceTree = "<group>"; };
+		458F6F6700FE4E23C7A3952C /* Pods_PlistManagerTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlistManagerTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		691CFCC42B8C20554F1DE8EC /* Pods-PlistManagerTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlistManagerTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlistManagerTutorial/Pods-PlistManagerTutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		8FC481D09A65B78F51221E78 /* Pods-PlistManagerTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlistManagerTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlistManagerTutorial/Pods-PlistManagerTutorial.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EEE8097BC934C2A4783B4F5 /* Pods_PlistManagerTutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,8 @@
 				0FCAFCF01EB3942600FDCC64 /* PlistManagerTutorialTests */,
 				0FCAFCFB1EB3942600FDCC64 /* PlistManagerTutorialUITests */,
 				0FCAFCDA1EB3942600FDCC64 /* Products */,
+				3100BDB6DCF5945C16C6A917 /* Pods */,
+				41CF348C6CC18BE3F0733CA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +108,8 @@
 		0FCAFCDB1EB3942600FDCC64 /* PlistManagerTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				0FCAFD0A1EB39B4400FDCC64 /* Data.plist */,
+				0FCAFD0C1EB39B5D00FDCC64 /* OtherData.plist */,
 				0FCAFCDC1EB3942600FDCC64 /* AppDelegate.swift */,
 				0FCAFCDE1EB3942600FDCC64 /* ViewController.swift */,
 				0FCAFCE01EB3942600FDCC64 /* Main.storyboard */,
@@ -125,6 +138,23 @@
 			path = PlistManagerTutorialUITests;
 			sourceTree = "<group>";
 		};
+		3100BDB6DCF5945C16C6A917 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				691CFCC42B8C20554F1DE8EC /* Pods-PlistManagerTutorial.debug.xcconfig */,
+				8FC481D09A65B78F51221E78 /* Pods-PlistManagerTutorial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		41CF348C6CC18BE3F0733CA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				458F6F6700FE4E23C7A3952C /* Pods_PlistManagerTutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FCAFD011EB3942600FDCC64 /* Build configuration list for PBXNativeTarget "PlistManagerTutorial" */;
 			buildPhases = (
+				2F9631A058D25E8830BA700E /* [CP] Check Pods Manifest.lock */,
 				0FCAFCD51EB3942600FDCC64 /* Sources */,
 				0FCAFCD61EB3942600FDCC64 /* Frameworks */,
 				0FCAFCD71EB3942600FDCC64 /* Resources */,
+				BB09C8182F90AA66D768CE64 /* [CP] Embed Pods Frameworks */,
+				8790A4253958219FA9E1774E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +226,7 @@
 				TargetAttributes = {
 					0FCAFCD81EB3942600FDCC64 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = EHS7PH589P;
+						DevelopmentTeam = S3725VKX58;
 						ProvisioningStyle = Automatic;
 					};
 					0FCAFCEC1EB3942600FDCC64 = {
@@ -236,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FCAFCE71EB3942600FDCC64 /* LaunchScreen.storyboard in Resources */,
+				0FCAFD0D1EB39B5D00FDCC64 /* OtherData.plist in Resources */,
 				0FCAFCE41EB3942600FDCC64 /* Assets.xcassets in Resources */,
+				0FCAFD0B1EB39B4400FDCC64 /* Data.plist in Resources */,
 				0FCAFCE21EB3942600FDCC64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +291,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F9631A058D25E8830BA700E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8790A4253958219FA9E1774E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlistManagerTutorial/Pods-PlistManagerTutorial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB09C8182F90AA66D768CE64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlistManagerTutorial/Pods-PlistManagerTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0FCAFCD51EB3942600FDCC64 /* Sources */ = {
@@ -415,9 +498,10 @@
 		};
 		0FCAFD021EB3942600FDCC64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 691CFCC42B8C20554F1DE8EC /* Pods-PlistManagerTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = EHS7PH589P;
+				DEVELOPMENT_TEAM = S3725VKX58;
 				INFOPLIST_FILE = PlistManagerTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.ios.PlistManagerTutorial;
@@ -428,9 +512,10 @@
 		};
 		0FCAFD031EB3942600FDCC64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FC481D09A65B78F51221E78 /* Pods-PlistManagerTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = EHS7PH589P;
+				DEVELOPMENT_TEAM = S3725VKX58;
 				INFOPLIST_FILE = PlistManagerTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.ios.PlistManagerTutorial;
@@ -516,6 +601,7 @@
 				0FCAFD031EB3942600FDCC64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FCAFD041EB3942600FDCC64 /* Build configuration list for PBXNativeTarget "PlistManagerTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +610,7 @@
 				0FCAFD061EB3942600FDCC64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FCAFD071EB3942600FDCC64 /* Build configuration list for PBXNativeTarget "PlistManagerTutorialUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +619,7 @@
 				0FCAFD091EB3942600FDCC64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

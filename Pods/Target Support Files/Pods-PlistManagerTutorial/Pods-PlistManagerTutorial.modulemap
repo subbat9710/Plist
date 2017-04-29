@@ -1,0 +1,6 @@
+framework module Pods_PlistManagerTutorial {
+  umbrella header "Pods-PlistManagerTutorial-umbrella.h"
+
+  export *
+  module * { export * }
+}
